@@ -1,0 +1,40 @@
+{
+  "name": "react-playground",
+  "description": "react workflow sandbox",
+  "homepage": "https://github.com/Kikobeats/react-playground",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": "Kikobeats/react-playground",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/react-playground/issues"
+  },
+  "keywords": [],
+  "dependencies": {
+    "babel": "~5.8.21",
+    "babelify": "~6.2.0",
+    "react": "~0.13.3",
+    "vinyl-source-stream": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "~5.8.23",
+    "babel-loader": "~5.3.2",
+    "browser-sync": "~2.8.2",
+    "react-hot-loader": "~1.2.9",
+    "webpack": "~1.12.0",
+    "webpack-dev-server": "~1.10.1"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "scripts": {
+    "test": "sh test/test.sh",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "license": "MIT"
+}
